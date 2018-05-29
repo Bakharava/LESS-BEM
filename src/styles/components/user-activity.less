@@ -1,0 +1,33 @@
+.user-activity {
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0;
+//  justify-content: space-around;
+  &__label {
+    font-family: @font-spare;
+    font-size: 14px;
+    color: @color-basic-medium-gray;
+    margin-bottom: 10px;
+    &-percent{
+      color: @color-additional-black;
+      font-weight: bold;
+    }
+  }
+  &__progress{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    &-line {
+      height: 5px;
+      width: 40px;
+      background-color: @color-additional-blue;
+      border: none;
+    }
+    &-line:nth-child(4) {
+      background: linear-gradient(to right, @color-additional-blue 70%, #b6daf1 30%);
+    }
+    &-line:last-child {
+      background-color: #b6daf1;
+    }
+  }
+}

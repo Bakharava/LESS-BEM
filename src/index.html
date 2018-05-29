@@ -2,9 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Main account page</title>
+    <title>Main user profile page</title>
+    <link rel="stylesheet/less" type="text/css" href="styles/styles.less" />
+    <link rel="stylesheet" href="./assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/fonts/font-oswald/css/font-oswald.css">
+    <link rel="stylesheet" href="./assets/fonts/font-sourcesanspro/css/font-sourcesanspro.css">
+    <script src="less.js"></script>
 </head>
 <body>
-    <div class="account">fff</div>
+<div class="profile">
+    <div class="profile__background-wrapper">
+        <img class="profile__background-image" src="assets/img/Me_edited.jpg" alt="profile photo">
+
+        <div class="profile-card">
+            <div class="user-info card">
+                <div class="user-info__logo">
+                    <div class="user-info__logo-top"></div>
+                    <img class="user-info__logo-image" src="assets/img/Me_logo.jpg" alt="user" />
+                    <div class="user-info__logo-bottom"></div>
+                </div>
+                <div class="user-info__name">Olga Bystrova</div>
+                <div class="user-info__position">Software developer</div>
+            </div>
+            <div class="profile-card__separator"></div>
+            <div class="user-activity card">
+                <div class="user-activity__label">Activity level:
+                    <span class="user-activity__label-percent">78%</span></div>
+                <div class="user-activity__progress">
+                    <div class="user-activity__progress-line"></div>
+                    <div class="user-activity__progress-line"></div>
+                    <div class="user-activity__progress-line"></div>
+                    <div class="user-activity__progress-line"></div>
+                    <div class="user-activity__progress-line"></div>
+                </div>
+            </div>
+            <div class="user-actions card">
+                <div class="user-actions__wrapper">
+                    <div class="user-actions__mail actions">
+                        <button class="user-actions__mail-icon fa fa-envelope btn"></button>
+                        <div class="user-actions__mail-amount">1 089</div>
+                    </div>
+                    <div class="user-actions__likes actions">
+                        <button class="user-actions__likes-icon fa fa-user-plus btn"></button>
+                        <div class="user-actions__likes-amount">7 148</div>
+                    </div>
+                    <div class="user-actions__docs actions">
+                        <button class="user-actions__docs-icon fa fa-briefcase btn"></button>
+                        <div class="user-actions__docs-amount">152</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="user-description card">
+                <div class="user-description__text">She is truly devoted person to his work.
+                    Positive and energetic.
+                    Person who inspires the entire team with his energy.
+                </div>
+            </div>
+            <div class="profile-card__separator"></div>
+            <div class="user-links card">
+                <div class="user-links__social">rthrt</div>
+                <div class="user-links__account">rthrt</div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
 </body>
 </html>
